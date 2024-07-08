@@ -4,8 +4,9 @@ Convert a number to a french word.
 
 ### Installation
 
-Clone to directory to your local computer:
-```git clone xxx```
+1. Clone to directory to your local computer:
+```git clone https://github.com/Adahn/number_to_french_converter.git```
+2. Go into the cloned directory: ```cd number_to_french_converter```
 
 ### Use
 
@@ -17,6 +18,6 @@ In addition you can add the flag ```--lang``` with possible values ```french``` 
 The default value is french.
 
 Ex.: 
-- ```python src/main.py --lang belgium --list_numbers 0 10 893 3211```
+- ```python src/main.py --lang belgium --list_numbers 70 73 89 90```
 - ```python src/main.py --lang french  --list_numbers_str "[21, 94, 345, 4000, 894534]"```
 
